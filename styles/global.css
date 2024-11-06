@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main {
+    /* width: 100%; */
+    width: 393px;
+    height: 854px;
+    background-color: gray;
+    display: flex;
+    border-radius: 20px;
+    overflow-y: auto; /* Allows content inside .main to scroll */
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    position: relative; /* So fixed nav-bar appears at the bottom */
+    padding-bottom: 73px;
+    /* align-items: end; */
+}
