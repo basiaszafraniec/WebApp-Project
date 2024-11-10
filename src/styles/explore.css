@@ -1,0 +1,111 @@
+/* Container styling */
+.explore-container {
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Post card styling */
+.post-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+    transform: scale(1.03);
+}
+
+.user-id {
+    font-size: 14px;
+    color: #666;
+    padding: 10px;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    font-size: 16px;
+    padding: 10px;
+    color: #333;
+}
+
+
+
+
+/* General post styling */
+.post {
+    margin-bottom: 20px;
+  }
+  
+  .post-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Photo-video styling */
+  .photo-video img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .photo-video p {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  /* Short-text styling (like a tweet) */
+  .short-text {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .short-text p {
+    margin: 0;
+  }
+  
+  /* Article styling (show first 100 chars, truncate for preview) */
+  .article {
+    padding: 10px;
+    background-color: #fafafa;
+    border-left: 4px solid #3498db;
+  }
+  
+  .article h3 {
+    font-size: 18px;
+    color: #3498db;
+  }
+  
+  .article p {
+    font-size: 16px;
+  }
+  
+  /* Event styling (with date and description) */
+  .event {
+    padding: 10px;
+    background-color: #eaf7e5;
+    border-left: 4px solid #2ecc71;
+  }
+  
+  .event h3 {
+    font-size: 18px;
+    color: #2ecc71;
+  }
+  
+  .event p {
+    font-size: 16px;
+  }
+  

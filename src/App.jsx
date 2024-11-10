@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Explore from '../pages/Explore';
-import Search from '../pages/Search';
-import Add from '../pages/Add';
-import NavBar from '../components/NavBar';
-import Inbox from '../pages/Inbox';
-import Profile from '../pages/Profile';
-import PostDetail from '../pages/PostDetail'; // Import the PostDetail component
+import Explore from './pages/Explore';
+import Search from './pages/Search';
+import Add from './pages/Add';
+import NavBar from './components/NavBar';
+import Inbox from './pages/Inbox';
+import Profile from './pages/Profile';
+import PostDetail from './pages/PostDetail'; // Import the PostDetail component
 
 export default function App() {
     return (
