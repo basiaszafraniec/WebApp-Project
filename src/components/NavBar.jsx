@@ -11,9 +11,6 @@ export default function NavBar() {
             : `/${page}-Icon.png`;
     };
     
-
-    
-
     return (
         <div className="nav-bar">
             <Link to="/" className="nav-btn">

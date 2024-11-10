@@ -1,1 +1,330 @@
-[{"id":1,"type":"photo","user-id":"1"},{"id":2,"type":"article","user-id":"13"}]
+[
+    {
+        "id": 76,
+        "date": "2024-11-08T16:35:07",
+        "date_gmt": "2024-11-08T16:35:07",
+        "guid": {
+            "rendered": "https://wp-test.basiaszafraniec.dk/?post_type=tattoo-post&#038;p=76"
+        },
+        "modified": "2024-11-08T16:35:07",
+        "modified_gmt": "2024-11-08T16:35:07",
+        "slug": "short-text",
+        "status": "publish",
+        "type": "tattoo-post",
+        "link": "https://wp-test.basiaszafraniec.dk/index.php/tattoo-post/short-text/",
+        "title": {
+            "rendered": "short-text"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 0,
+        "template": "",
+        "meta": {
+            "_acf_changed": true,
+            "inline_featured_image": false
+        },
+        "class_list": [
+            "post-76",
+            "tattoo-post",
+            "type-tattoo-post",
+            "status-publish",
+            "hentry"
+        ],
+        "acf": {
+            "type": "short-text",
+            "user-id": "45",
+            "photo-video-src": "",
+            "caption": "",
+            "if-tattoo": false,
+            "if-sketch": false,
+            "style-tag": "",
+            "location": null,
+            "tag": "",
+            "short-text-text": "Do u guys know if having a rash on ur tattoo for over a year is normal?",
+            "article-title": "",
+            "article-text": "",
+            "event-name": "",
+            "event-date": null,
+            "event-location": null,
+            "event-description": "",
+            "if-sponsored": false
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/tattoo-posts/76"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/tattoo-posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/types/tattoo-post"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/media?parent=76"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 75,
+        "date": "2024-11-08T16:34:09",
+        "date_gmt": "2024-11-08T16:34:09",
+        "guid": {
+            "rendered": "https://wp-test.basiaszafraniec.dk/?post_type=tattoo-post&#038;p=75"
+        },
+        "modified": "2024-11-08T16:34:09",
+        "modified_gmt": "2024-11-08T16:34:09",
+        "slug": "article",
+        "status": "publish",
+        "type": "tattoo-post",
+        "link": "https://wp-test.basiaszafraniec.dk/index.php/tattoo-post/article/",
+        "title": {
+            "rendered": "article"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 0,
+        "template": "",
+        "meta": {
+            "_acf_changed": true,
+            "inline_featured_image": false
+        },
+        "class_list": [
+            "post-75",
+            "tattoo-post",
+            "type-tattoo-post",
+            "status-publish",
+            "hentry"
+        ],
+        "acf": {
+            "type": "article",
+            "user-id": "1",
+            "photo-video-src": "",
+            "caption": "",
+            "if-tattoo": false,
+            "if-sketch": false,
+            "style-tag": "",
+            "location": null,
+            "tag": "",
+            "short-text-text": "",
+            "article-title": "How to properly clean a fresh tattoo?",
+            "article-text": "Whether your tattoo is small or takes up your entire back, you should make sure it fully heals. Rules vary by state or country about who can get tattoos, but your tattoo artist should always send you home with a clean tattoo.\r\n\r\nAt the federal level, the U.S. FDA has recommendations to help manufacturers and distributors prevent contamination of tattoo ink. Tattoo inks that contain germs or other harmful substances could cause infection.\r\n\r\nCheck reviews for your tattoo artist to make sure they're following local safety measures before your first ink session.\r\n\r\nTattoo Aftercare\r\nSo, how can you make sure that new tattoo is something you don’t end up regretting? Follow these steps while your new tattoo heals.\r\n\r\nBe sure your artist covers your new tattoo in a bandage.\r\nRemove the bandage after 24 hours (or sooner, if your tattoo artist recommends it). Wash your hands before taking off the bandage. \r\nGently wash the tattoo with soap (antibacterial if available) and water, and pat dry with a clean paper towel.\r\nApply a layer of moisturizing antibiotic ointment, but don’t put on another bandage.\r\nCarefully wash your tattoo area three times a day with soap and water, and gently pat it dry.\r\nKeep applying a moisturizer or ointment after you clean your tattoo to keep it moist. After 5 days, you can switch from an antibiotic ointment to a gentle fragrance-free body lotion.",
+            "event-name": "",
+            "event-date": null,
+            "event-location": null,
+            "event-description": "",
+            "if-sponsored": false
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/tattoo-posts/75"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/tattoo-posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/types/tattoo-post"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/media?parent=75"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 74,
+        "date": "2024-11-08T16:32:37",
+        "date_gmt": "2024-11-08T16:32:37",
+        "guid": {
+            "rendered": "https://wp-test.basiaszafraniec.dk/?post_type=tattoo-post&#038;p=74"
+        },
+        "modified": "2024-11-08T16:33:00",
+        "modified_gmt": "2024-11-08T16:33:00",
+        "slug": "event",
+        "status": "publish",
+        "type": "tattoo-post",
+        "link": "https://wp-test.basiaszafraniec.dk/index.php/tattoo-post/event/",
+        "title": {
+            "rendered": "event"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 0,
+        "template": "",
+        "meta": {
+            "_acf_changed": true,
+            "inline_featured_image": false
+        },
+        "class_list": [
+            "post-74",
+            "tattoo-post",
+            "type-tattoo-post",
+            "status-publish",
+            "hentry"
+        ],
+        "acf": {
+            "type": "event",
+            "user-id": "3",
+            "photo-video-src": "",
+            "caption": "",
+            "if-tattoo": false,
+            "if-sketch": false,
+            "style-tag": "",
+            "location": null,
+            "tag": "",
+            "short-text-text": "",
+            "article-title": "",
+            "article-text": "",
+            "event-name": "Meet And Greet With The Coolest Artists",
+            "event-date": "20241122",
+            "event-location": null,
+            "event-description": "Grab your leg warmers, tease up that hair, and get ready to party like it's 1985! 🕺💃 We're throwing the ultimate 80’s bash that’s gonna be totally rad!\r\n🎶 Tunes: We're spinning the best tracks from the 80s! Starting from ABBA, Boney M, Bee Gees, to Toto, Michael Jackson, Tina Turner, Bon Jovi, and more. If these tunes don’t make you wanna bust a move, nothing will!\r\n👗 Dress Code: Come dressed in your best 80s outfit. Think neon, spandex, and shoulder pads! Prizes will be awarded to the most tubular costumes!\r\nSchedule:\r\n🚶‍♀️Moon-walking Contest: Are you smooth like MJ? Show us your best moonwalk and win the adoration of your fellow party-goers and a cool prize!\r\n🎸Air-guitar Contest: Rock out with your imaginary guitar! The most convincing and outrageous performance wins!\r\n🌀TWISTER: Get twisted with a game of Twister. How low can you go?\r\n-------------------------\r\n🎟️Registration: No registration required – just come as you are and bring your best 80s mood!\r\nSo, whether you lived through the 80s, missed the 80s, or just know the 80s through reruns, come join us for a night of unforgettable fun. It’s gonna be gnarly, dude!\r\nCan’t wait to see you all there! 🌟💖 ",
+            "if-sponsored": true
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/tattoo-posts/74"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/tattoo-posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/types/tattoo-post"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/media?parent=74"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 73,
+        "date": "2024-11-08T15:55:42",
+        "date_gmt": "2024-11-08T15:55:42",
+        "guid": {
+            "rendered": "https://wp-test.basiaszafraniec.dk/?post_type=tattoo-post&#038;p=73"
+        },
+        "modified": "2024-11-08T15:55:42",
+        "modified_gmt": "2024-11-08T15:55:42",
+        "slug": "bunny",
+        "status": "publish",
+        "type": "tattoo-post",
+        "link": "https://wp-test.basiaszafraniec.dk/index.php/tattoo-post/bunny/",
+        "title": {
+            "rendered": "bunny"
+        },
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "featured_media": 0,
+        "template": "",
+        "meta": {
+            "_acf_changed": true,
+            "inline_featured_image": false
+        },
+        "class_list": [
+            "post-73",
+            "tattoo-post",
+            "type-tattoo-post",
+            "status-publish",
+            "hentry"
+        ],
+        "acf": {
+            "type": "photo-video",
+            "user-id": "1",
+            "photo-video-src": "https://i.pinimg.com/564x/4f/68/23/4f6823caac9bfe6cfdbe23d0fcc4d8bc.jpg",
+            "caption": "just got this cute bunny tattoo at @bunnyStudios :)",
+            "if-tattoo": true,
+            "if-sketch": false,
+            "style-tag": "",
+            "location": null,
+            "tag": "",
+            "short-text-text": "",
+            "article-title": "",
+            "article-text": "",
+            "event-name": "",
+            "event-date": null,
+            "event-location": null,
+            "event-description": "",
+            "if-sponsored": false
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/tattoo-posts/73"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/tattoo-posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/types/tattoo-post"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https://wp-test.basiaszafraniec.dk/index.php/wp-json/wp/v2/media?parent=73"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https://api.w.org/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

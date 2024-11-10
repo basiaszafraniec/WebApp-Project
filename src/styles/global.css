@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #eee;
+    background-color: #e5cdcd;
     min-height: 100vh;
     overflow: hidden;
 }
@@ -17,7 +19,7 @@ body {
     /* width: 100%; */
     width: 393px;
     height: 854px;
-    background-color: gray;
+    background-color: #eaeaea;
     display: flex;
     border-radius: 20px;
     overflow-y: auto; /* Allows content inside .main to scroll */
