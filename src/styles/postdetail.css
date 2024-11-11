@@ -1,0 +1,173 @@
+/* General Styling for Post Detail */
+.post-detail-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.post-detail-page h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* User Info Section - Consistent for all post types */
+.post-detail-page .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.post-detail-page .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.post-detail-page .username {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+/* Styling for different post types */
+
+/* Photo/Video Post */
+.post-detail-page .photo-video {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.post-detail-page .photo-video img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-detail-page .photo-video p {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 15px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Short Text Post */
+.post-detail-page .short-text {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-detail-page .short-text p {
+    text-align: justify;
+}
+
+/* Article Post */
+.post-detail-page .article {
+    margin-bottom: 40px;
+}
+
+.post-detail-page .article h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.post-detail-page .article p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-detail-page .article p:first-of-type {
+    margin-top: 20px;
+}
+
+/* Event Post */
+.post-detail-page .event {
+    margin-bottom: 40px;
+}
+
+.post-detail-page .event h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.post-detail-page .event p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Post Content Box */
+.post-detail-page .post-content {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation links (e.g., Next/Previous) */
+.post-detail-page .post-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.post-detail-page .post-nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.post-detail-page .post-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile and Responsive Adjustments */
+@media (max-width: 768px) {
+    .post-detail-page h2 {
+        font-size: 2rem;
+    }
+
+    .post-detail-page .photo-video img {
+        width: 100%;
+    }
+
+    .post-detail-page .short-text,
+    .post-detail-page .article,
+    .post-detail-page .event {
+        font-size: 1rem;
+    }
+
+    .post-detail-page .article p,
+    .post-detail-page .event p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
