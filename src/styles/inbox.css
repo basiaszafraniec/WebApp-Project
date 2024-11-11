@@ -1,0 +1,84 @@
+/* Inbox container */
+.inbox-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .message {
+    background-color: #f4f4f4;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .message-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    background-image: url('https://www.w3schools.com/w3images/avatar2.png'); /* Replace with user image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .message-right {
+    flex-grow: 1;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .message-content {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  .timestamp {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .browse-groups {
+    margin-top: 20px;
+  }
+  
+  .browse-groups a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .browse-groups a:hover {
+    text-decoration: underline;
+  }
+  

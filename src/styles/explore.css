@@ -1,51 +1,53 @@
 /* Container styling */
 .explore-container {
   padding: 20px;
+  background-color: #f9f9f9; /* Light background for the explore section */
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* Two columns */
+  grid-template-columns: repeat(2, 1fr); /* 2 columns for a balanced layout */
   grid-gap: 20px;
-  grid-auto-rows: minmax(200px, auto);
-  /* Allows cards to adjust height based on content */
+  grid-auto-rows: minmax(250px, auto); /* Make each row flexible, with a minimum height */
+  margin-top: 20px;
 }
 
 /* Post card styling */
 .post-card {
   background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
-  height: auto;
-  /* Allow height to adjust to content */
+  height: 100%;
 }
 
 .post-card:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .user-id {
   font-size: 14px;
-  color: #666;
+  color: #999;
   padding: 10px;
+  font-weight: 600;
 }
 
 .post-image {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 200px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensure the image covers the area without stretching */
 }
 
 .caption {
   font-size: 16px;
-  padding: 10px;
+  padding: 15px;
   color: #333;
+  line-height: 1.5;
 }
 
 /* General post styling */
@@ -61,96 +63,75 @@
 /* Photo-video styling */
 .photo-video img {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
 }
 
 .photo-video p {
+  font-size: 14px;
   font-style: italic;
   text-align: center;
+  padding: 10px;
+  color: #666;
 }
 
-/* Short-text styling (like a tweet) */
+/* Short-text styling */
 .short-text {
-  background-color: #f0f0f0;
-  padding: 15px;
+  background-color: #fdf6e3; /* Soft yellow background */
+  padding: 20px;
   border-radius: 8px;
-  font-size: 18px;
-  /* Increased text size */
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 .short-text p {
   margin: 0;
-  font-size: 18px;
-  /* Increased text size for better readability */
+  font-size: 16px;
+  color: #666;
 }
 
-/* Article styling (show first 100 chars, truncate for preview) */
+/* Article styling */
 .article {
-  padding: 10px;
+  padding: 20px;
   background-color: #fafafa;
-  border-left: 4px solid #3498db;
+  border-left: 4px solid #f39c12; /* Warm yellow-orange for article posts */
 }
 
 .article h3 {
   font-size: 18px;
-  color: #3498db;
+  color: #f39c12; /* Matching color for titles */
+  margin-bottom: 10px;
 }
 
 .article p {
   font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-/* Event styling (with date and description) */
+/* Event styling */
 .event {
-  padding: 10px;
-  background-color: #eaf7e5;
-  border-left: 4px solid #2ecc71;
+  padding: 20px;
+  background-color: #fae2d5; /* Soft peach background */
+  border-left: 4px solid #e67e22; /* Warm orange for event posts */
 }
 
 .event h3 {
   font-size: 18px;
-  color: #2ecc71;
+  color: #e67e22; /* Matching color for titles */
 }
 
 .event p {
   font-size: 16px;
+  color: #666;
+  line-height: 1.5;
 }
 
 .explore-container {
-  padding: 20px;
-}
-
-.filter-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 15px;
-  width: inherit;
-}
-
-.filter-options {
-  display: flex;
-  width: inherit;
-  gap: 10px;
-  overflow-x: auto;
-}
-
-.filter-options button {
-  padding: 10px 10px;
-  font-size: 12px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  transition: 0.3s;
-  background-color: white;
-}
-
-.filter-options button.active {
-  text-decoration: underline;
-  background-color: #E1AE2C;
-  color: white;
-}
-
-.filter-options button:hover {
-  text-decoration: underline;
+  padding: 40px 20px; /* More padding for a spacious feel */
 }

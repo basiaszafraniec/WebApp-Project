@@ -13,12 +13,11 @@ export default function App() {
       <div className='main'>
         <div className="content-area">
           <Routes>
-            <Route path="/" element={<Explore />} /> {/* Default route */}
+            <Route path="/" element={<Explore />} />
             <Route path="/search" element={<Search />} />
             <Route path="/add" element={<Add />} />
             <Route path="/inbox" element={<Inbox />} />
             <Route path="/profile" element={<Profile />} />
-            {/* <Route path="/post/:postId" element={<PostDetail />} /> Detail page for individual posts */}
             <Route path="/post/:slug" element={<PostDetail />} />
 
           </Routes>
