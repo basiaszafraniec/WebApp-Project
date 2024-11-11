@@ -5,8 +5,9 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 20px;
+    grid-auto-rows: minmax(200px, auto); /* Allows cards to adjust height based on content */
 }
 
 /* Post card styling */
@@ -17,6 +18,9 @@
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Allow height to adjust to content */
 }
 
 .post-card:hover {
@@ -41,71 +45,68 @@
     color: #333;
 }
 
-
-
-
 /* General post styling */
 .post {
     margin-bottom: 20px;
-  }
-  
-  .post-link {
+}
+
+.post-link {
     text-decoration: none;
     color: inherit;
-  }
-  
-  /* Photo-video styling */
-  .photo-video img {
+}
+
+/* Photo-video styling */
+.photo-video img {
     width: 100%;
     height: auto;
-  }
-  
-  .photo-video p {
+}
+
+.photo-video p {
     font-style: italic;
     text-align: center;
-  }
-  
-  /* Short-text styling (like a tweet) */
-  .short-text {
+}
+
+/* Short-text styling (like a tweet) */
+.short-text {
     background-color: #f0f0f0;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
-    font-size: 14px;
-  }
-  
-  .short-text p {
+    font-size: 18px; /* Increased text size */
+}
+
+.short-text p {
     margin: 0;
-  }
-  
-  /* Article styling (show first 100 chars, truncate for preview) */
-  .article {
+    font-size: 18px; /* Increased text size for better readability */
+}
+
+/* Article styling (show first 100 chars, truncate for preview) */
+.article {
     padding: 10px;
     background-color: #fafafa;
     border-left: 4px solid #3498db;
-  }
-  
-  .article h3 {
+}
+
+.article h3 {
     font-size: 18px;
     color: #3498db;
-  }
-  
-  .article p {
+}
+
+.article p {
     font-size: 16px;
-  }
-  
-  /* Event styling (with date and description) */
-  .event {
+}
+
+/* Event styling (with date and description) */
+.event {
     padding: 10px;
     background-color: #eaf7e5;
     border-left: 4px solid #2ecc71;
-  }
-  
-  .event h3 {
+}
+
+.event h3 {
     font-size: 18px;
     color: #2ecc71;
-  }
-  
-  .event p {
+}
+
+.event p {
     font-size: 16px;
-  }
-  
+}

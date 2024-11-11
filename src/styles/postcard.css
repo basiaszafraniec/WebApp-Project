@@ -1,0 +1,23 @@
+/* Profile picture and username styling */
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Adjustments for post content */
+.post-content {
+    padding: 15px;
+}
